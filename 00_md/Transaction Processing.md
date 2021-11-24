@@ -35,7 +35,7 @@ PIDを使用してワークプロセスを識別します。またシステム�
 ![03_sm50_error](https://github.com/koishi755/SAP/blob/main/transactional_processing/03_sm50_error.png)
 
 ### Report
-以下の場合、SAP*ユーザーがクライアント100にログインしていることを意味しています。
+以下の場合、SAP*ユーザーがクライアント100にログインしていることを意味しています。<br>
 ![04_sm50_report](https://github.com/koishi755/SAP/blob/main/transactional_processing/04_sm50_report.png)
 
 <br>
