@@ -131,18 +131,31 @@ SAPMMCはMicrosoft管理コンソールのようなもので、インスタン�
 
 ![04_SAP_management_console_status](https://github.com/koishi755/SAP/blob/main/SAP_Start_process/04_SAP_management_console_status.png)
 
-また、データベースの状態をチェックするための情報を表示するなど、ある種の管理を行うこともできます。
-ここでは、SIDを見ることができます。
-これはシステム ID で、私たちの場合は ECC システムでした。
-ここではECCというシステムIDを確認することができました。
-そして、ECCDEMOというデータベースを見ることができました。
-これがデータベースで、次にプロセスリストにあるABAPとJavaのインスタンスが表示されます。
-
-私たちはABAPとJavaのインスタンスを見ることができました。
-ここではABAPのワークプロセスを見ることができ、ここではJavaのワークプロセスも見ることができます。
-このようにして、システムの状態を表示できるMMCコンソールを使用することができます。
-さらに、MMCコンソールを使った主な違いは、サービスによってシステムの状態を見ることができることです。
-
+また、SAPMMCはデータベースの状態をチェックする等の管理も可能です。<br>
+以下の図のようにSID、DB、ABAPのワークプロセスが確認できます。<br>
+SIDはシステムIDのことで、図でNPLとなっています。<br>
+saptestというのがDBになります。<br>
 ![14_sapmmc_info](https://github.com/koishi755/SAP/blob/main/SAP_Start_process/14_sapmmc_info.png)
+
+SAPシステムを起動・停止するには。
+
+
+SAPMMCからSIDを選択し、右クリック　→　[start]を選択します。<br>
+![15_sapmmc_start1](https://github.com/koishi755/SAP/blob/main/SAP_Start_process/15_sapmmc_start1.png)
+
+<br>
+
+タイムアウトの時間はデフォルトで入力されているので、「OK」をクリックします。<br>
+![16_sapmmc_start2](https://github.com/koishi755/SAP/blob/main/SAP_Start_process/16_sapmmc_start2.png)
+
+<br>
+
+ユーザー名とパスワードを入力し、「OK」をクリックします。<br>
+一般的には、SAPシステムにログインするために使用したユーザーであるSIDADMを使用します。(この環境の場合、npladm)<br>
+また、同様の権限を持つ他のユーザーを使って相手のSAPシステムを起動することもできます。<br>
+![17_sapmmc_enter_user_passwd](https://github.com/koishi755/SAP/blob/main/SAP_Start_process/17_sapmmc_enter_user_passwd.png)
+
+
+
 
 
