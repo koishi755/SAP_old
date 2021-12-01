@@ -127,4 +127,18 @@ SYSの中には「gen」「exe」「global」「profile」があります。<br>
 
 # SAP起動ツール
 ## SAPMMC
+SAPMMCはMicrosoft管理コンソールのようなもので、インスタンスの停止や起動が可能です。<br>
 
+![04_SAP_management_console_status](https://github.com/koishi755/SAP/blob/main/SAP_Start_process/04_SAP_management_console_status.png)
+
+また、データベースの状態をチェックするための情報を表示するなど、ある種の管理を行うこともできます。
+ここでは、SIDを見ることができます。
+これはシステム ID で、私たちの場合は ECC システムでした。
+ここではECCというシステムIDを確認することができました。
+そして、ECCDEMOというデータベースを見ることができました。
+これがデータベースで、次にプロセスリストにあるABAPとJavaのインスタンスが表示されます。
+
+私たちはABAPとJavaのインスタンスを見ることができました。
+ここではABAPのワークプロセスを見ることができ、ここではJavaのワークプロセスも見ることができます。
+このようにして、システムの状態を表示できるMMCコンソールを使用することができます。
+さらに、MMCコンソールを使った主な違いは、サービスによってシステムの状態を見ることができることです。
