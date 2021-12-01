@@ -142,3 +142,7 @@ SAPMMCはMicrosoft管理コンソールのようなもので、インスタン�
 ここではABAPのワークプロセスを見ることができ、ここではJavaのワークプロセスも見ることができます。
 このようにして、システムの状態を表示できるMMCコンソールを使用することができます。
 さらに、MMCコンソールを使った主な違いは、サービスによってシステムの状態を見ることができることです。
+
+![14_sapmmc_info](https://github.com/koishi755/SAP/blob/main/SAP_Start_process/14_sapmmc_info.png)
+
+
